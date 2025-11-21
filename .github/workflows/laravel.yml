@@ -40,8 +40,8 @@ jobs:
       - name: Build Artifact (Simulado)
         run: |
           echo "Empaquetando aplicación..."
-          tar -czf release.tar.gz --exclude=release.tar.gz .
-          echo "Artefacto release.tar.gz creado exitosamente."
+          tar -czf /tmp/release.tar.gz .
+          echo "Artefacto creado exitosamente en /tmp."
 
       - name: Deploy to Production (Simulado con Docker)
         run: |
