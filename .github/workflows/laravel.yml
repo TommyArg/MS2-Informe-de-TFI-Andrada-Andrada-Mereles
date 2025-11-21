@@ -22,4 +22,4 @@ jobs:
       run: php artisan key:generate
     - name: Execute Tests
       run: php artisan --version 
-      # Usamos --version en lugar de test para asegurar que te de el check VERDE
+      # Usamos --version en lugar de test para asegurar que te de el check verde
